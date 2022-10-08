@@ -1,3 +1,18 @@
+# 패키지 컨트롤
+
+python -m venv venv
+
+# 인터프리터 설정
+
+Python Select Interpreter
+
+# pymongo
+
+from pymongo import MongoClient
+client = MongoClient(
+'mongodb+srv://genie:sparta@cluster0.blce7zu.mongodb.net/?retryWrites=true&w=majority')
+db = client.dbsparta
+
 # 저장 - 예시
 
 doc = {'name': 'bobby', 'age': 21}
